@@ -1,0 +1,167 @@
+body
+{
+	background: linear-gradient(to right,pink ,skyblue);
+}
+.Tilt
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: green;
+	margin: 15px;
+	box-shadow: 2px 2px 4px 6px blue;
+}
+
+.Tilt-inner
+{
+	display: flex;
+
+	font-size: 500%;
+	justify-content: center;
+}
+
+.mega
+{
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.border
+{
+	background:
+radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(240,166,17,0) 0)21px 30px,
+radial-gradient(circle farthest-side at 0% 50%,#B71 24%,rgba(240,166,17,0) 0)19px 30px,
+linear-gradient(#fb1 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#fb1 0)0 0,
+linear-gradient(150deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+linear-gradient(30deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+linear-gradient(90deg,#B71 2%,#fb1 0,#fb1 98%,#B71 0%)0 0 #fb1;
+background-size: 40px 60px;
+	height: 70px;
+	width: 300px;
+	border: 3px solid red;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.text
+{
+	width: 150px;
+	height: 20px;
+}
+
+.but
+{
+	width: 50px;height: 25px;background: linear-gradient(134deg,red,blue);
+
+}
+
+.rank
+{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	font-size: 200%;
+	color: rgba(200, 20, 30, 0.7);
+	font-family: open-sans;
+}
+.rankend
+{
+	font-weight: bold;
+}
+.desc
+{
+	color: rgba(0, 0, 130, 0.9);
+	font-size: 120%;
+	font-family: open-sans;
+	font-weight: bold;
+}
+.user
+{  
+	transition: all 1s ease;
+}
+.user:hover
+{
+          background-position:0 100% ;
+          
+}
+.center
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6px;
+}
+
+
+.fg
+{
+	position: relative;}
+.box
+{
+	position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.megad
+{
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	align-items: center;
+	margin: 300px;
+	
+	
+	}
+
+.boxer
+{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 300px;
+	border: 2px solid transparent;
+	border-radius: 6px;
+	box-shadow: 2px 2px 20px 1px  black;
+		align-items: center;
+}
+.Sign
+{
+	margin: 5px;
+	font-weight: bold;
+	font-size: 130%;
+}
+.email,.pass
+{
+	font-size: 120%;
+	margin: 0px;
+}
+.emaili,.passi
+{
+	border: 2px solid black;
+	height: 22px;
+}
+.signup
+{
+	margin: 2px;
+	text-align: center;
+	font-size: 110%;font-weight: bold;
+	border: 2px solid black;
+	border-radius: 6px;
+
+}
